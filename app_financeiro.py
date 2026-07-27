@@ -33,7 +33,7 @@ import numpy as np
 # =============================================
 st.set_page_config(
     page_title="App Financeiro Pessoal",
-    page_icon="logo.png",
+    page_icon=open("logo.png", "rb").read(),
     layout="wide",
     initial_sidebar_state="expanded",
 )
